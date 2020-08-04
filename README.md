@@ -8,6 +8,6 @@ This needs the gecko driver adding to the PATH environment variable [Releases ·
 
 To run, simply execute the script with the account name as a parameter.
 
-`python instagram-image-scraper.py nasahubble`
+`python instagram-scraper.py nasahubble`
 
-All files will be saved in `./download/accountname`
+All files will be saved in `./download/nasahubble`
