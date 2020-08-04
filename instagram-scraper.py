@@ -16,7 +16,7 @@ def main():
     driver.get(url)
 
     page = BeautifulSoup(driver.page_source, features = "lxml")
-    # scrollToBottom(driver)
+    scrollToBottom(driver)
     page = BeautifulSoup(driver.page_source, features = "lxml")
 
     posts = page.find_all(class_='v1Nh3')    
